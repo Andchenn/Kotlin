@@ -1,7 +1,7 @@
 package Oj_Dg
 
 
-class User2(var map: MutableMap<String, Any>)
+class User2(map: MutableMap<String, Any>)
 {
 	//name中的值和map的值是同步的
 	var name: String by map
@@ -23,6 +23,6 @@ fun main(args: Array<String>)
 	user2.name = "Mary"
 	println(mutableMap)
 	//修改mutableMap中相应的属性值，user的age也跟着变化
-	mutableMap.put("age", 26)
+	mutableMap["age"] = 26
 	println(user2.age)
 }
