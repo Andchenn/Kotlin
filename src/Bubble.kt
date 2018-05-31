@@ -18,7 +18,6 @@ fun bubbleSort(array: IntArray)
 		}
 	}
 }
-
 fun main(args: Array<String>)
 {
 	val sort= intArrayOf(1,0,5,8,6,4,7)
